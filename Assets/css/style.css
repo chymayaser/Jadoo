@@ -1,0 +1,527 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root
+{
+    --gold:#dfa700;
+    --bg-main:#d16a6a;
+    --title:rgb(0, 29, 110);
+    --color-main:black;
+    --para-color:rgb(60, 76, 121);
+}
+
+header nav ul
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0px;
+    top: 0%;
+    padding: 25px 130px;
+    z-index: 99999;
+}
+nav li
+{
+    list-style: none;
+    padding: 0px 40px;
+}
+
+li a
+{
+    text-decoration: none;
+    color: var(--color-main) ;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav .logo
+{
+    font-size: 40px;
+    padding: 15px 100px;
+    font-weight: 800;
+}
+
+.btn-sign
+{
+    border: 2px solid var(--color-main);
+    border-radius: 5px;
+    padding: 7px 15px;
+    transition: background-color 0.5s, color 0.5s ;
+}
+
+.btn-sign:hover
+{
+    background-color: var(--color-main);
+    color:rgb(240, 211, 176);
+}
+
+header
+{
+    background-image: url(../Images/background.jpeg);
+    /* background-image: url(../Images/picture.jpeg); */
+    width: 100%;
+    height: 100vh;
+    background-position: right top;
+    background-repeat: no-repeat;
+    z-index: 999999999;
+    padding: 0px 120px;
+
+}
+
+/* .image
+{
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    z-index: 1;
+} */
+
+
+.photo
+{
+ padding: 80px 80px;
+}
+
+.text h5
+{
+    color: var(--bg-main);
+    padding-top: 20px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.text h1
+{
+
+    color: var(--title);
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.text p
+{
+    color:var(--para-color);
+    padding: 15px 0px;
+}
+
+.color-red
+{
+    width: 20%;
+    position: relative;
+    bottom: 160px;
+    left: 160px;
+    z-index: -1;
+}
+
+.btn-btn
+{
+    padding: 15px 15px;
+    color: #fff;
+    background-color: var(--gold);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgb(255, 231, 171);
+    transition: background-color 0.5s;
+}
+
+.btn-btn:hover
+{
+    cursor: pointer;
+  background-color: #d19d00;
+}
+
+
+.media-player
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.media-player img
+{
+    width: 100px;
+    padding-left:15px ;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.category
+{
+    text-align: center;
+}
+
+.category p
+{
+    color:var(--para-color);
+    font-weight: 500;
+}
+
+.category h2
+{
+
+    color: var(--title);
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.pluses
+{
+   text-align: right;
+   position: relative;
+   right: 100px;
+   bottom: 100px;
+}
+
+.Services-container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Services
+{
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    margin: 30px;
+   text-align: center;
+   padding: 10px 20px;
+}
+
+.Services img
+{
+    padding: 10px;
+}
+
+.Services-content
+{
+    padding: 16px;
+}
+
+.Services-content h3
+{
+    /* font-size: 28px; */
+    margin-bottom: 8px;
+    color: var(--title);
+}
+
+.Services-content p
+{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+    color: var(--para-color);
+}
+
+
+.top
+{
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom:50px;
+}
+
+.top p
+{
+    color:rgb(60, 76, 121);
+    font-weight: 500;
+}
+
+.top h2
+{
+
+    color: var(--title);
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.card-container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card
+{
+     width: 340px; 
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    margin: 27px;
+}
+
+.card img
+{
+   
+    width: 100%;
+    
+}
+
+
+.card-content
+{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content h3
+{
+   font-weight: 500;
+   color: var(--para-color);
+}
+
+.card-content p
+{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.artilce
+{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+}
+
+.artilce img
+{
+    width: 13%;
+    padding: 0px 10px;
+}
+
+.artilce h4
+{
+    color: var(--para-color);
+    font-weight: 500;
+
+}
+
+.flower
+{
+     position: relative;
+    bottom: 180px;
+    left: 150px; 
+    z-index:-1;
+}
+
+.travel-brand
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    padding: 30px 150px;
+}
+
+.brands img
+{
+    transition: transform 0.5s ;
+}
+
+.brands img:hover
+{
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transform:scale(1.1,1.1);
+    cursor: pointer;
+}
+
+.subscribe
+{
+    background-image: url(../Images/organic-minimalist-background_91008-250.jpg);
+    background-color: rgb(250, 244, 253);
+    width: 75%;
+    border-radius: 10px 100px 10px 10px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.send
+{
+    display: flex;
+    width: 10%;
+    /* background-color: rgb(111, 0, 255); */
+    padding: 20px;
+    border-radius: 50px;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+}
+
+.subscribe p
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--para-color);
+    text-align: center;
+}
+
+input 
+{
+    margin-top: 50px;
+    border: none;
+    padding: 20px 15px;
+    padding-right: 160px;
+    border-radius: 6px;
+
+}
+
+.btn-sub
+{
+    border: none;
+    color: #fff;
+    background-color: #fd705d;
+    padding: 18px 35px;
+    border-radius: 6px;
+    transition: background-color 0.5s ;
+    margin-left: 5px;
+
+}
+
+.btn-sub:hover
+{
+    cursor: pointer;
+    background-color: #fd8a5d;
+}
+
+.pluses-sub
+{
+    text-align: right;
+    position: relative;
+    bottom: 150px;
+    right: 80px;
+    z-index: -1;
+}
+
+.pluses-sub img
+{
+    transform: rotate(450deg);
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 150px; 
+}
+
+
+.jadoo h2
+{
+    font-size: 50px;
+    color: var(--title);
+    font-weight: 500;
+    line-height: 90px;
+}
+
+.jadoo p
+{
+    color: var(--para-color);
+}
+
+.company h2, .contact h2, .more h2
+{
+    line-height: 85px;
+}
+
+.company ul li, .contact ul li, .more ul li
+{
+    list-style: none;
+    line-height: 30px;
+    
+}
+
+.company ul a, .contact ul a, .more ul a
+{
+    color: var(--para-color);
+}
+
+
+ .icons
+{
+    width: 14%;
+    display: flex;
+    padding: 0 5px;
+}
+
+.image-i img
+{
+    width: 100%;
+    transition: transform 0.5s ;
+}
+
+.image-i img:hover
+{
+    transform:scale(1.1,1.1);
+    cursor: pointer;
+}
+
+.elec-store
+{
+    text-align: right;
+} 
+
+.elec-store p
+{
+
+    position: relative;
+    bottom: 100px ;
+    right: 230px;
+    font-size: 20px;
+    color: var(--para-color);
+}
+
+.image-store
+{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 80px ;
+    right: 200px;
+    
+}
+
+.image-store img
+{
+    padding: 0px 5px;
+    transition: transform 0.5s ;
+}
+
+.image-store img:hover
+{
+    transform:scale(1.1,1.1);
+    cursor: pointer;
+}
+
+.copyRight
+{
+    text-align: center;
+    padding-bottom: 50px;
+    color: var(--para-color);
+    font-weight: 500;
+}
